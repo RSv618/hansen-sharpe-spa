@@ -30,7 +30,8 @@ def hansen_spa(log_returns_df: pd.DataFrame, risk_free_rate: float=0.0,
     Notes:
     This function implements Hansen's SPA test by:
     1. Calculating excess Sharpe ratios.
-    2. Transforming Sharpe ratios to account for correlation using Equation (15).
+    2. Transforming Sharpe ratios to account for correlation using
+    Equation 15 from Pav, S. E. (2019) "Conditional inference on the asset with maximum Sharpe ratio".
     3. Applying a threshold to identify high-performing strategies.
     4. Adjusting for multiple comparisons and identifying statistically significant strategies.
 
