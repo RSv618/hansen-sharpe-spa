@@ -9,7 +9,7 @@ This Python project implements Hansen's Superior Predictive Ability (SPA) Test, 
 
 ## Installation
 ### Requirements
-This project requires Python 3.7 or later and the following libraries:
+This project requires Python 3.8 or later and the following libraries:
 - numpy
 - pandas
 - scipy
